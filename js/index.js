@@ -100,8 +100,8 @@ window.onload = () => {
     ctx.font = "50px sans-serif";
     ctx.fillText("GAME OVER", 100, 100);
     ctx.fillStyle = "white";
-    ctx.font = "40px sans-serif";
-    ctx.fillText(`Final Score: ${player.score}`, 100, 300);
+    ctx.font = "22px sans-serif";
+    ctx.fillText(`You Dead Boi, Final Score: ${player.score}`, 100, 300);
   }
 
   function move(e) {
